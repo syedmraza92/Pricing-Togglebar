@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.toggle-bar {
+    width: 300px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.toggle-button {
+    width: 50%;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 25px;
+    position: absolute;
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.toggle-label {
+    background-color: #ccc;
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 700;
+  }
